@@ -1,0 +1,34 @@
+{
+  "name": "rollup-drag-view",
+  "version": "0.0.1",
+  "description": "",
+  "main": "package/drag-view.cjs.js",
+  "module": "package/drag-view.esm.js",
+  "browser": "package/drag-view.umd.js",
+  "scripts": {
+    "dev": "rollup --config build/rollup.dev.ts --configPlugin typescript -w",
+    "build": "rollup --config build/rollup.prod.ts --configPlugin typescript"
+  },
+  "files": [
+    "package",
+    "tsconfig.json",
+    "README.md",
+    "demo.gif"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/node": "^18.0.1",
+    "rollup": "^2.75.7",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^2.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-visualizer": "^5.6.0",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  }
+}

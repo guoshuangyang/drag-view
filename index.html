@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>测试</title>
+  </head>
+  <body>
+    <div class="left" style="display: flex">
+      <div
+        id="left"
+        style="width: 200px; height: 200px; background: pink"
+      ></div>
+      <div
+        id="center"
+        style="
+          background: #d61818;
+          height: 200px;
+          width: 10px;
+          cursor: ew-resize;
+        "
+      ></div>
+      <div
+        id="right"
+        style="flex-grow: 1; height: 200px; background: blue"
+      ></div>
+    </div>
+    <script src="/lib/bundle.umd.js"></script>
+    <script>
+      const a = new DragView(document.getElementById("center"), {
+        direction: "horizontal",
+        fixed: true,
+        left: document.getElementById("left"),
+        right: document.getElementById("right"),
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    // "sourceMap": true,
+    "target": "esnext",
+    "outDir": "type",
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "include": ["src/**/*.ts", "build/*.ts"]
+}
