@@ -1,5 +1,5 @@
 {
-  "name": "drag-view",
+  "name": "drag2view",
   "version": "0.0.1",
   "description": "一个拖拽边框进行区域的放大和缩小的js库，没有任何额外的依赖",
   "main": "package/drag-view.cjs.js",
@@ -43,5 +43,8 @@
     "rollup-plugin-visualizer": "^5.6.0",
     "tslib": "^2.4.0",
     "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "drag2view": "^0.0.1"
   }
 }
