@@ -39,8 +39,8 @@ new DragView(document.getElementById("center"), {
     | --------- | ----------------------------------------------------------------------- |
     | direction | "horizontal"可选"vertical"                                              |
     | fixed     | 是否根据body的宽高进行相对页面固定比列的伸缩可缩放区域大小（默认false） |
-    | left      | 左侧的元素Element（仅在direction时候horizontal必填）                    |
-    | right     | 右侧的元素Element（仅在direction时候horizontal必填）                    |
-    | top       | 上部的元素Element（仅在direction时候vertical必填）                      |
-    | bottom    | 下部的元素Element（仅在direction时候vertical必填）                      |
+    | left      | 左侧的元素Element（仅在direction为horizontal的时候必填）                |
+    | right     | 右侧的元素Element（仅在direction为horizontal的时候必填）                |
+    | top       | 上部的元素Element（仅在direction为vertical的时候必填）                  |
+    | bottom    | 下部的元素Element（仅在direction为vertical的时候必填）                  |
 
