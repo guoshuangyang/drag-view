@@ -1,7 +1,7 @@
 {
-  "name": "rollup-drag-view",
+  "name": "drag-view",
   "version": "0.0.1",
-  "description": "",
+  "description": "一个拖拽边框进行区域的放大和缩小的js库，没有任何额外的依赖",
   "main": "package/drag-view.cjs.js",
   "module": "package/drag-view.esm.js",
   "browser": "package/drag-view.umd.js",
@@ -15,8 +15,21 @@
     "README.md",
     "demo.gif"
   ],
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "drag",
+    "view",
+    "drag-view"
+  ],
+  "author": {
+    "email": "guoshuangyang0@163.com",
+    "name": "Edmund Guo",
+    "url": "https://guoshuangyang.com"
+  },
+  "homepage": "https://github.com/guoshuangyang/drag-view",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guoshuangyang/drag-view"
+  },
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-json": "^4.1.0",
